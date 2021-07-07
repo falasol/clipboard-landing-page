@@ -54,7 +54,9 @@
     }
   }
   &__social-img {
-    filter: $color-primary;
-    color: orangered;
+    &:hover {
+      filter: invert(58%) sepia(63%) saturate(465%) hue-rotate(122deg)
+        brightness(92%) contrast(93%);
+    }
   }
 }

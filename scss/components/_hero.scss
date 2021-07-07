@@ -6,6 +6,12 @@
 
   @include respond(tab-land) {
     background-image: url(../images/bg-header-desktop.png);
-    padding: 10rem;
+    padding: 12rem;
+  }
+  &__img {
+    margin-bottom: 3rem;
+    @include respond(tab-land) {
+      margin-bottom: 5rem;
+    }
   }
 }
