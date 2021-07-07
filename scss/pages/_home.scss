@@ -1,0 +1,36 @@
+.section-value {
+  padding: 0 1.5rem;
+  @include respond(tab-land) {
+    padding: 5rem 0;
+  }
+}
+
+.section-feature {
+  padding: 0 1.5rem;
+  text-align: center;
+  @include respond(tab-land) {
+    padding: 6rem 0;
+    position: relative;
+    text-align: left;
+  }
+}
+
+.section-access {
+  padding: 5rem 1.5rem;
+}
+
+.section-tools {
+  padding: 5rem 1.5rem;
+  @include respond(tab-land) {
+    padding: 4rem 1.5rem;
+  }
+}
+.section-clients {
+  padding: 5rem;
+  @include respond(tab-land) {
+    padding: 4rem 1.5rem;
+  }
+}
+.section-available {
+  padding: 5rem 1.5rem;
+}

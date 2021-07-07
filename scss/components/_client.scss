@@ -1,0 +1,8 @@
+.client {
+  &__img {
+    margin-bottom: 5rem;
+    @include respond(tab-port) {
+      margin-bottom: 8rem;
+    }
+  }
+}

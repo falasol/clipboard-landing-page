@@ -1,0 +1,24 @@
+// ### Fonts
+
+// - Family: [Bai Jamjuree](https://fonts.google.com/specimen/Bai+Jamjuree)
+// - Weights: 400, 600
+
+body,
+body::after,
+body::before {
+  padding: 0;
+  margin: 0;
+  box-sizing: inherit;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  box-sizing: border-box;
+}
+
+h3 {
+  margin: 0;
+}
